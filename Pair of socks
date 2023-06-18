@@ -1,0 +1,10 @@
+a = input()
+r = a.count('r')
+g = a.count('g')
+b = a.count('b')
+if (r%2==0):
+    if(g%2==0):
+        if(b%2==0):
+            print('true')
+else:
+    print('false')
